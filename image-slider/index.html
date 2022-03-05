@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="frame-arrow-container">
+        <img src="arrow-left.svg" alt="left-arrow" class="left-arrow disabled" onclick="previous()">
+        <div class="frame">
+            <div class="slide"><img src="image-1.jpg" alt=""></div>
+            <div class="slide"><img src="image-2.jpg" alt=""></div>
+            <div class="slide"><img src="image-3.jpg" alt=""></div>
+            <div class="slide"><img src="image-4.jpg" alt=""></div>
+            <div class="slide"><img src="image-5.jpg" alt=""></div>
+            <div class="slide"><img src="image-6.jpg" alt=""></div>
+        </div>
+        <img src="arrow-right.svg" alt="right-arrow" class="right-arrow" onclick="next()">
+    </div>
+    <div class="nav-dots">
+        <div class="dot highlighted"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+</body>
+</html>
